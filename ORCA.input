@@ -1,0 +1,17 @@
+! MP2 def2-qzvp
+! TightSCF
+%pal
+  nprocs 10
+end
+%MaxCore 4000
+%scf
+  maxiter=100
+end
+%mp2 
+  NatOrbs true
+  PrintLevel 3
+end
+
+* xyz charge multiplicity
+Geometry in cartesian coordinates
+*
